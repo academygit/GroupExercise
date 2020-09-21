@@ -1,5 +1,6 @@
 kyssarit = {"kuinka monta päivää on viikosta": "7",
-"tähän toinen kyssäri": "ja vastaus"}
+"tähän toinen kyssäri": "ja vastaus", 
+"Kuinka paljon painaa kilo höyheniä?":"1 kg"}
 
 while True:
     oikeat = 0
