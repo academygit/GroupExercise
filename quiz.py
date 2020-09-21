@@ -4,11 +4,13 @@ kyssarit = {"kuinka monta päivää on viikosta": "7",
 while True:
     oikeat = 0
     kaikki = 0
-    for kyssari, oikea in kyssarit:
-        vastaus = input(kyssari)
+    keyt = kyssarit.keys()
+    valuet = kyssarit.values()
+    for key, value in keyt, valuet:
+        vastaus = input(key)
         if vastaus == "":
             break
-        elif vastaus == oikea:
+        elif vastaus == value:
             oikeat += 1
             kaikki += 1
         else:
