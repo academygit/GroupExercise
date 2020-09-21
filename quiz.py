@@ -1,14 +1,13 @@
-kyssarit = {"kuinka monta päivää on viikosta": "7",
+kyssarit = {"kuinka monta päivää on viikossa? ": "7",
 "tähän toinen kyssäri": "ja vastaus", 
-"Kuinka paljon painaa kilo höyheniä?":"1 kg"}
-
+"Kuinka paljon painaa kilo höyheniä? ":"1 kg"}
+oikeat = 0
+kaikki = 0
 while True:
-    oikeat = 0
-    kaikki = 0
-    vastaus = input("tähän joku kysymys")
+    vastaus = input(list(kyssarit.keys())[kaikki])
     if vastaus == "":
         break
-    elif vastaus == "tähän sitte oikea vastaus":
+    elif vastaus == kyssarit.get(vastaus):
         oikeat += 1
         kaikki += 1
     else:
