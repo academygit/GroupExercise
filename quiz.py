@@ -4,6 +4,7 @@ kyssarit = {"kuinka monta päivää on viikossa? ": "7",
 oikeat = 0
 kaikki = 0
 while True:
+<<<<<<< HEAD
     vastaus = input(list(kyssarit.keys())[kaikki])
     if vastaus == "":
         break
@@ -12,5 +13,21 @@ while True:
         kaikki += 1
     else:
         kaikki += 1
+=======
+    oikeat = 0
+    kaikki = 0
+    keyt = kyssarit.keys()
+    valuet = kyssarit.values()
+    for key, value in keyt, valuet:
+        vastaus = input(key)
+        if vastaus == "":
+            break
+        elif vastaus == value:
+            oikeat += 1
+            kaikki += 1
+        else:
+            kaikki += 1
+
+>>>>>>> tiimityoe
 
 print(f"sinulla oli {oikeat}/{kaikki} oikeaa vastausta")
