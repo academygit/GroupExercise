@@ -1,3 +1,6 @@
+kyssarit = {"kuinka monta päivää on viikosta": "7",
+"tähän toinen kyssäri": "ja vastaus"}
+
 while True:
     oikeat = 0
     kaikki = 0
