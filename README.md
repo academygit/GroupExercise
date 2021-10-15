@@ -1,2 +1,2 @@
 # GroupExercise
-Group exercise for Testiautomaatio
+Group exercise for GIT - a quiz
