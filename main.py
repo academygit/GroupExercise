@@ -8,7 +8,7 @@ def pelaa():
 #while-loop joka kutsuu kysymyksentulostusta, käsittelee pelaajan syötteen
 #1 pelaa 0 lopeta
 def suorita():
-    print(ohje)
+    ohje()
     kysymys = int(input("Oletko valmis pelaamaan? 1 = Pelaa, 0 = Lopeta "))
     if kysymys == 1:
         return pelaa()
